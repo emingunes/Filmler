@@ -1,0 +1,8 @@
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.DAL\bin\Debug\FilmlerKatmanli.DAL.dll.config
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.DAL\bin\Debug\FilmlerKatmanli.DAL.dll
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.DAL\bin\Debug\FilmlerKatmanli.DAL.pdb
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.DAL\obj\Debug\FilmlerKatmanli.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.DAL\obj\Debug\FilmlerKatmanli.DAL.dll
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.DAL\obj\Debug\FilmlerKatmanli.DAL.pdb

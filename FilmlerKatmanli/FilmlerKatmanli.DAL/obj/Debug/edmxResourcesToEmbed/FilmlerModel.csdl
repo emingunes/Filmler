@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FilmlerDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="FilmlerDBEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Filmler" EntityType="FilmlerDBModel.Filmler" />
+    <EntitySet Name="FilmOyuncular" EntityType="FilmlerDBModel.FilmOyuncular" />
+    <EntitySet Name="Oyuncular" EntityType="FilmlerDBModel.Oyuncular" />
+    <EntitySet Name="Yonetmenler" EntityType="FilmlerDBModel.Yonetmenler" />
+    <AssociationSet Name="FK_Filmler_Yonetmenler" Association="FilmlerDBModel.FK_Filmler_Yonetmenler">
+      <End Role="Yonetmenler" EntitySet="Yonetmenler" />
+      <End Role="Filmler" EntitySet="Filmler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FilmOyuncular_Filmler" Association="FilmlerDBModel.FK_FilmOyuncular_Filmler">
+      <End Role="Filmler" EntitySet="Filmler" />
+      <End Role="FilmOyuncular" EntitySet="FilmOyuncular" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FilmOyuncular_Oyuncular" Association="FilmlerDBModel.FK_FilmOyuncular_Oyuncular">
+      <End Role="Oyuncular" EntitySet="Oyuncular" />
+      <End Role="FilmOyuncular" EntitySet="FilmOyuncular" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Filmler">
+    <Key>
+      <PropertyRef Name="FilmId" />
+    </Key>
+    <Property Name="FilmId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FilmAdi" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="YayinTarihi" Type="DateTime" Precision="3" />
+    <Property Name="YonetmenId" Type="Int32" />
+    <NavigationProperty Name="Yonetmenler" Relationship="FilmlerDBModel.FK_Filmler_Yonetmenler" FromRole="Filmler" ToRole="Yonetmenler" />
+    <NavigationProperty Name="FilmOyuncular" Relationship="FilmlerDBModel.FK_FilmOyuncular_Filmler" FromRole="Filmler" ToRole="FilmOyuncular" />
+  </EntityType>
+  <EntityType Name="FilmOyuncular">
+    <Key>
+      <PropertyRef Name="FilmOyuncuId" />
+    </Key>
+    <Property Name="FilmOyuncuId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FilmId" Type="Int32" />
+    <Property Name="OyuncuId" Type="Int32" />
+    <NavigationProperty Name="Filmler" Relationship="FilmlerDBModel.FK_FilmOyuncular_Filmler" FromRole="FilmOyuncular" ToRole="Filmler" />
+    <NavigationProperty Name="Oyuncular" Relationship="FilmlerDBModel.FK_FilmOyuncular_Oyuncular" FromRole="FilmOyuncular" ToRole="Oyuncular" />
+  </EntityType>
+  <EntityType Name="Oyuncular">
+    <Key>
+      <PropertyRef Name="OyuncuId" />
+    </Key>
+    <Property Name="OyuncuId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="OyuncuAdi" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="OyuncuSoyadi" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="FilmOyuncular" Relationship="FilmlerDBModel.FK_FilmOyuncular_Oyuncular" FromRole="Oyuncular" ToRole="FilmOyuncular" />
+  </EntityType>
+  <EntityType Name="Yonetmenler">
+    <Key>
+      <PropertyRef Name="YonetmenId" />
+    </Key>
+    <Property Name="YonetmenId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="YonetmenAdi" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="YonetmenSoyadi" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Filmler" Relationship="FilmlerDBModel.FK_Filmler_Yonetmenler" FromRole="Yonetmenler" ToRole="Filmler" />
+  </EntityType>
+  <Association Name="FK_Filmler_Yonetmenler">
+    <End Role="Yonetmenler" Type="FilmlerDBModel.Yonetmenler" Multiplicity="0..1" />
+    <End Role="Filmler" Type="FilmlerDBModel.Filmler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Yonetmenler">
+        <PropertyRef Name="YonetmenId" />
+      </Principal>
+      <Dependent Role="Filmler">
+        <PropertyRef Name="YonetmenId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FilmOyuncular_Filmler">
+    <End Role="Filmler" Type="FilmlerDBModel.Filmler" Multiplicity="0..1" />
+    <End Role="FilmOyuncular" Type="FilmlerDBModel.FilmOyuncular" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Filmler">
+        <PropertyRef Name="FilmId" />
+      </Principal>
+      <Dependent Role="FilmOyuncular">
+        <PropertyRef Name="FilmId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FilmOyuncular_Oyuncular">
+    <End Role="Oyuncular" Type="FilmlerDBModel.Oyuncular" Multiplicity="0..1" />
+    <End Role="FilmOyuncular" Type="FilmlerDBModel.FilmOyuncular" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Oyuncular">
+        <PropertyRef Name="OyuncuId" />
+      </Principal>
+      <Dependent Role="FilmOyuncular">
+        <PropertyRef Name="OyuncuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

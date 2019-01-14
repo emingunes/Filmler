@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FilmlerDBModelStoreContainer" CdmEntityContainer="FilmlerDBEntities">
+    <EntitySetMapping Name="Filmler">
+      <EntityTypeMapping TypeName="FilmlerDBModel.Filmler">
+        <MappingFragment StoreEntitySet="Filmler">
+          <ScalarProperty Name="FilmId" ColumnName="FilmId" />
+          <ScalarProperty Name="FilmAdi" ColumnName="FilmAdi" />
+          <ScalarProperty Name="YayinTarihi" ColumnName="YayinTarihi" />
+          <ScalarProperty Name="YonetmenId" ColumnName="YonetmenId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FilmOyuncular">
+      <EntityTypeMapping TypeName="FilmlerDBModel.FilmOyuncular">
+        <MappingFragment StoreEntitySet="FilmOyuncular">
+          <ScalarProperty Name="FilmOyuncuId" ColumnName="FilmOyuncuId" />
+          <ScalarProperty Name="FilmId" ColumnName="FilmId" />
+          <ScalarProperty Name="OyuncuId" ColumnName="OyuncuId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Oyuncular">
+      <EntityTypeMapping TypeName="FilmlerDBModel.Oyuncular">
+        <MappingFragment StoreEntitySet="Oyuncular">
+          <ScalarProperty Name="OyuncuId" ColumnName="OyuncuId" />
+          <ScalarProperty Name="OyuncuAdi" ColumnName="OyuncuAdi" />
+          <ScalarProperty Name="OyuncuSoyadi" ColumnName="OyuncuSoyadi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yonetmenler">
+      <EntityTypeMapping TypeName="FilmlerDBModel.Yonetmenler">
+        <MappingFragment StoreEntitySet="Yonetmenler">
+          <ScalarProperty Name="YonetmenId" ColumnName="YonetmenId" />
+          <ScalarProperty Name="YonetmenAdi" ColumnName="YonetmenAdi" />
+          <ScalarProperty Name="YonetmenSoyadi" ColumnName="YonetmenSoyadi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

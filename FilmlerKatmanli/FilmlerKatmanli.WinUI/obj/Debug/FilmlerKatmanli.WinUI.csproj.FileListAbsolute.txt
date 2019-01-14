@@ -1,0 +1,15 @@
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\bin\Debug\FilmlerKatmanli.WinUI.exe.config
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\bin\Debug\FilmlerKatmanli.WinUI.exe
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\bin\Debug\FilmlerKatmanli.WinUI.pdb
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\bin\Debug\FilmlerKatmanli.BLL.dll
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\bin\Debug\FilmlerKatmanli.DAL.dll
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\bin\Debug\EntityFramework.dll
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\bin\Debug\FilmlerKatmanli.BLL.pdb
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\bin\Debug\FilmlerKatmanli.DAL.pdb
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\bin\Debug\EntityFramework.xml
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\obj\Debug\FilmlerKatmanli.WinUI.csprojResolveAssemblyReference.cache
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\obj\Debug\FilmlerKatmanli.WinUI.Form1.resources
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\obj\Debug\FilmlerKatmanli.WinUI.Properties.Resources.resources
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\obj\Debug\FilmlerKatmanli.WinUI.csproj.GenerateResource.Cache
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\obj\Debug\FilmlerKatmanli.WinUI.exe
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.WinUI\obj\Debug\FilmlerKatmanli.WinUI.pdb

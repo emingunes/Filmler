@@ -1,0 +1,10 @@
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.BLL\bin\Debug\FilmlerKatmanli.BLL.dll.config
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.BLL\bin\Debug\FilmlerKatmanli.BLL.dll
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.BLL\bin\Debug\FilmlerKatmanli.BLL.pdb
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.BLL\bin\Debug\FilmlerKatmanli.DAL.dll
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.BLL\bin\Debug\FilmlerKatmanli.DAL.pdb
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.BLL\bin\Debug\EntityFramework.xml
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.BLL\obj\Debug\FilmlerKatmanli.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.BLL\obj\Debug\FilmlerKatmanli.BLL.dll
+C:\Users\Ayhan Guney\Desktop\YD3-3207\FilmlerKatmanli\FilmlerKatmanli.BLL\obj\Debug\FilmlerKatmanli.BLL.pdb
